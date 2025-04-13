@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "formatted_files/**/*", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/formatted_files/$1" },
+    { "handle": "filesystem" },
+    { "src": "/", "dest": "/formatted_files/Magic_UI_Beautiful.html" }
+  ]
+} 

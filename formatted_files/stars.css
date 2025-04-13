@@ -1,0 +1,42 @@
+.stars-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.star {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+    animation: float var(--duration) infinite ease-in-out;
+    opacity: 0;
+}
+
+@keyframes float {
+    0% { 
+        opacity: 0; 
+        transform: translate(0, 0); 
+    }
+    10% { 
+        opacity: 0.8; 
+    }
+    90% { 
+        opacity: 0.6; 
+    }
+    100% { 
+        opacity: 0; 
+        transform: translate(var(--x-distance, 0), var(--y-distance, -100vh)); 
+    }
+}
+
+.twin-learning-box {
+    position: relative;
+    z-index: 5;
+    background: inherit;
+} 
