@@ -1,0 +1,69 @@
+# Robots.txt for Zerreta.com
+# https://zerreta.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Disallow specific directories (if any)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /temp/
+# Disallow: /backup/
+
+# Allow CSS and JavaScript files for proper rendering
+Allow: /static/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.ico$
+Allow: /*.woff$
+Allow: /*.woff2$
+Allow: /*.ttf$
+Allow: /*.eot$
+
+# Crawl delay (optional - can be removed if not needed)
+# Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://zerreta.com/sitemap.xml
+
+# Additional sitemaps (if you create them later)
+# Sitemap: https://zerreta.com/sitemap-blog.xml
+# Sitemap: https://zerreta.com/sitemap-products.xml
+# Sitemap: https://zerreta.com/sitemap-images.xml
+
+# Host directive (helps with canonicalization)
+Host: https://zerreta.com 

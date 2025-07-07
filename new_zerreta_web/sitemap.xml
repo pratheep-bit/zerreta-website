@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+        http://www.google.com/schemas/sitemap-image/1.1
+        http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+<!-- Homepage -->
+<url>
+    <loc>https://zerreta.com/</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+        <image:loc>https://zerreta.com/111.png</image:loc>
+        <image:title>Zerreta Educational Technology Platform</image:title>
+        <image:caption>Revolutionary AI-powered educational technology transforming schools with Twin Learning System and smart board applications</image:caption>
+    </image:image>
+    <image:image>
+        <image:loc>https://zerreta.com/ZERRETA.png</image:loc>
+        <image:title>Zerreta Logo</image:title>
+        <image:caption>Zerreta Learnings - Redefining Education, Empowering Futures</image:caption>
+    </image:image>
+</url>
+
+<!-- Main page (redirect) -->
+<url>
+    <loc>https://zerreta.com/index.html</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+        <image:loc>https://zerreta.com/111.png</image:loc>
+        <image:title>Zerreta Educational Technology Platform</image:title>
+        <image:caption>Revolutionary AI-powered educational technology transforming schools with Twin Learning System and smart board applications</image:caption>
+    </image:image>
+</url>
+
+<!-- Home page (redirect) -->
+<url>
+    <loc>https://zerreta.com/home.html</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<!-- Privacy Policy -->
+<url>
+    <loc>https://zerreta.com/privacy.html</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>quarterly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<!-- Terms and Conditions -->
+<url>
+    <loc>https://zerreta.com/terms.html</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>quarterly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<!-- EdTech Solutions Page -->
+<url>
+    <loc>https://zerreta.com/edtech-solutions.html</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<!-- India EdTech Companies Page -->
+<url>
+    <loc>https://zerreta.com/india-edtech-companies.html</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<!-- Blog Page -->
+<url>
+    <loc>https://zerreta.com/blog.html</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<!-- Thank You Page -->
+<url>
+    <loc>https://zerreta.com/thank-you.html</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+</url>
+
+<!-- SEO-friendly URL aliases -->
+<url>
+    <loc>https://zerreta.com/privacy/</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>quarterly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://zerreta.com/terms/</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>quarterly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://zerreta.com/thank-you/</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+</url>
+
+</urlset> 
